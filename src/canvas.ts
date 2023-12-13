@@ -73,8 +73,6 @@ export default class LogoCanvas {
     if (colorL.value.length === 7 && colorL.value.includes("#")) {
       colorValueL = colorL.value;
     }
-    console.log("colorValueR : " + colorValueR);
-    console.log("colorValueL : " + colorValueL);
 
     const loading = document.querySelector("#loading")!;
     loading.classList.remove("hidden");
@@ -197,10 +195,7 @@ export default class LogoCanvas {
 
       o.addEventListener("input", () => {
         if (o.value.length === 7 && o.value.includes("#")) {
-          console.log("OK");
           this.draw();
-          // const d = document.getElementById("textL");
-          // e("textL", d);
         }
       });
     }

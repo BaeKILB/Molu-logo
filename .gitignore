@@ -27,3 +27,12 @@ dist-ssr
 public/fonts/*/*
 public/*.*
 !public/fonts/RoGSans/font.css
+
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
